@@ -2,9 +2,10 @@
 
 A non-intrusive HTML viewer for developers.
 
-I made this because sometimes I just want to open an HTML file without opening a full browser around it. This is especially useful for me because I built a few Python apps that have a web-based interface.
+Fluezy is essentially a small Electron Chromium window for local HTML files. No address bar, no tabs, no navigation buttons, and no toolbar sitting on top of your content. Open a file and it gets the whole window. It will hide the scrollbars for you as well.
 
-Fluezy is basically a small Electron Chromium window for local HTML files. No address bar, no tabs, no navigation buttons, and no toolbar sitting on top of your content. Open a file and it gets the whole window. It will hide the scrollbars for you as well.
+This utility is useful for devs buidling apps with webview front-end interfaces. Get the clutter out of the way and emulate the behavior of your app. 
+
 
 Since it's Chromium-based, modern HTML, CSS, and JavaScript work normally, including local scripts, stylesheets, images, fonts, and other files referenced with relative paths.
 
@@ -41,16 +42,15 @@ npm start
 
 ## Building
 
-To build the Linux AppImage:
+To build the Linux AppImage yourself:
 
 ```bash
 npm run build
 ```
 
-The finished AppImage will be placed in the `dist` folder.
+Check out the Releases page for the pre-built AppImage.
 
 ## Notes
 
 This is meant for viewing trusted local HTML files. The pages you open can run JavaScript just like they would in Chromium.
 
-The current build target is Linux, packaged as an AppImage.
