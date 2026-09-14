@@ -1,0 +1,43 @@
+{
+  "name": "fluezy",
+  "version": "1.0.0",
+  "productName": "Fluezy",
+  "description": "A non-intrusive HTML viewer for developers.",
+  "author": "Fluezy",
+  "license": "MIT",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "env -u ELECTRON_RUN_AS_NODE electron .",
+    "build": "env -u ELECTRON_RUN_AS_NODE electron-builder --linux AppImage",
+    "dist": "env -u ELECTRON_RUN_AS_NODE electron-builder --linux AppImage"
+  },
+  "build": {
+    "appId": "ai.fluezy.viewer",
+    "executableName": "fluezy",
+    "icon": "icon.png",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "icon.png",
+      "package.json"
+    ],
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "icon": "icon.png",
+      "category": "Utility",
+      "synopsis": "Non-intrusive HTML viewer for developers",
+      "syncDesktopName": true
+    },
+    "appImage": {
+      "artifactName": "${productName}-${version}.${ext}"
+    }
+  },
+  "devDependencies": {
+    "electron": "^44.3.0",
+    "electron-builder": "^26.15.3"
+  }
+}
