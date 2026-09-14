@@ -19,7 +19,7 @@ Since it's Chromium-based, modern HTML, CSS, and JavaScript work normally, inclu
 - Supports `Ctrl+O`
 - Opens external links in your normal browser
 - Includes zoom and fullscreen controls in the View menu (`Ctrl+=`, `Ctrl+-`, `Ctrl+0`, `F11`)
-- Stays out of the way
+- Stays the hell out of the way
 
 ## Using it
 
