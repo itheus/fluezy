@@ -23,7 +23,7 @@ Since it's Chromium-based, modern HTML, CSS, and JavaScript work normally, inclu
 
 ## Using it
 
-Launch the AppImage and click **Open File**.
+Launch the AppImage and click **Open File** after making it an executable with chmod +x.
 
 You can also press `Ctrl+O` or drag an HTML file directly into the window.
 
