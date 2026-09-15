@@ -1,8 +1,12 @@
-# Fluezy
+<p align=center> <img title="" src="https://raw.githubusercontent.com/itheus/fluezy/refs/heads/main/icon.png" alt="Fluezy" width="137" /> </p>
 
-A non-intrusive HTML viewer for developers.
+<h1 align=center> Fluezy </h1>
 
-Fluezy is essentially a small Electron Chromium window for local HTML files. No address bar, no tabs, no navigation buttons, and no toolbar sitting on top of your content. Open a file and it gets the whole window. It will hide the scrollbars for you as well.
+<h5 align=center> A non-intrusive HTML viewer for developers. </h5>
+
+
+## 
+<br> Fluezy is essentially a small Electron Chromium window for local HTML files. No address bar, no tabs, no navigation buttons, and no toolbar sitting on top of your content. Open a file and it gets the whole window. It will hide the scrollbars for you as well.
 
 This utility is useful for devs buidling apps with webview front-end interfaces. Get the clutter out of the way and emulate the behavior of your app. 
 
@@ -53,4 +57,3 @@ Check out the Releases page for the pre-built AppImage.
 ## Notes
 
 This is meant for viewing trusted local HTML files. The pages you open can run JavaScript just like they would in Chromium.
-
