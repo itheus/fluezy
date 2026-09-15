@@ -25,17 +25,25 @@ Since it's Chromium-based, modern HTML, CSS, and JavaScript work normally, inclu
 - Includes zoom and fullscreen controls in the View menu (`Ctrl+=`, `Ctrl+-`, `Ctrl+0`, `F11`)
 - Stays the hell out of the way
 
-## Using it
+## Download
 
-Launch the AppImage and click **Open File** after making it an executable with chmod +x.
+Check out the [**Releases**](https://github.com/itheus/fluezy/releases) page.
 
-You can also press `Ctrl+O` or drag an HTML file directly into the window.
+## Use it
 
-Use Gearlever to integrate the AppImage on your system permanently.
+Use [**Gear Lever**](https://github.com/mijorus/gearlever) to integrate the AppImage on your system.
+
+### Alternatively
+
+Make the AppImage executable by launching a terminal window in your downloads folder (or wherever you downloaded the file) and type`chmod +x` followed by the full filename including the **.AppImage** extension.
+
+Launch the app by typing `./filename.AppImage`
+
+Press `Ctrl+O` or drag an HTML file directly into the window.
 
 That's pretty much it.
 
-## Running from source
+## Run from source
 
 You'll need Node.js and npm.
 
@@ -44,15 +52,13 @@ npm ci
 npm start
 ```
 
-## Building
+## Build manually
 
 To build the Linux AppImage yourself:
 
 ```bash
 npm run build
 ```
-
-Check out the Releases page for the pre-built AppImage.
 
 ## Notes
 
